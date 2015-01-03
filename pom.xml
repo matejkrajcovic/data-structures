@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sk.krajcovic.data_structure</groupId>
+    <groupId>sk.krajcovic.data_structures</groupId>
     <artifactId>data-structures</artifactId>
     <name>data-structures</name>
     <description>Data structures and algorithms in Java</description>
@@ -49,7 +49,7 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>src/main</sourceDirectory>
-        <testSourceDirectory>src/test</testSourceDirectory>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
     </build>
 </project>
