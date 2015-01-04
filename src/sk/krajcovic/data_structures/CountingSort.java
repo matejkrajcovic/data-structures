@@ -1,9 +1,8 @@
 package sk.krajcovic.data_structures;
 
-public class CountingSort implements Sort {
+public class CountingSort {
 
-    @Override
-    public int[] sort(int[] inputArray) {
+    public static int[] sort(int[] inputArray) {
         int maxValue = 0;
         for (int value : inputArray) {
             if (value > maxValue) {

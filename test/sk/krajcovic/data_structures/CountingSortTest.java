@@ -10,8 +10,7 @@ public class CountingSortTest {
         int[] unsorted = {1, 4, 0, 3, 6, 2};
         int[] sorted   = {0, 1, 2, 3, 4, 6};
 
-        CountingSort countingSort = new CountingSort();
-        int[] countingSorted = countingSort.sort(unsorted);
+        int[] countingSorted = CountingSort.sort(unsorted);
 
         Assert.assertArrayEquals(sorted, countingSorted);
     }

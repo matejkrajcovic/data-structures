@@ -12,8 +12,7 @@ public class FisherYatesShuffleTest {
         int[] array = {1, 2, 3, 4, 5};
         int[] original = array.clone();
 
-        FisherYatesShuffle fisherYatesShuffle = new FisherYatesShuffle();
-        array = fisherYatesShuffle.shuffle(array);
+        array = FisherYatesShuffle.shuffle(array);
 
         Assert.assertEquals(original.length, array.length);
 

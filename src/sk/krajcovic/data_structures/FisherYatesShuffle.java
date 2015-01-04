@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class FisherYatesShuffle {
 
-    public int[] shuffle(int[] inputArray) {
+    public static int[] shuffle(int[] inputArray) {
         Random random = new Random();
         for (int i = (inputArray.length - 1); i > 0; i--) {
             int randomIndex = random.nextInt(i + 1);
